@@ -1,0 +1,30 @@
+{
+    "name": "veronika.voskanyan/test",
+    "autoload": {
+        "psr-4": {
+            "VeronikaVoskanyan\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Veronika"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "barev5/barev5",
+                "version":"dev-master",
+                "source": {
+                    "url": "git@github.com:Veronica20/barev.git",
+                    "type": "git",
+                    "reference":"dev-master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "barev5/barev5": "dev-master"
+    }
+}
